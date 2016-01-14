@@ -50,6 +50,15 @@ namespace Snapchat {
         }
 
         /*
+            Generates X-Snapchat headers
+        */
+        public GenerateSnapchatHeaders() {
+            let UUID = '';
+
+            let AUTH_CLIENT_TOKE = '';
+        }
+
+        /*
 	        Post request to Snapchat's API
         */
         public PostSnapchat(URI, parameters, headers?): Promise<string> {
