@@ -17,6 +17,7 @@
         public mediaState: string;
         public timer: Number = 0;
         public timestamp: number = 0;
+        public timeSent: string;
     }
 
     export interface LoginDetails {
