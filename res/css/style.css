@@ -9,12 +9,8 @@ html, body{
     -webkit-overflow-scrolling: touch;
 }
 .container {
-    margin: 20px auto 0 auto;
-}
-.box-1 {
-    margin: 0 0 60px 0;
-    text-align: center;
-    clear: both;
+    margin: 20px auto 60px auto;
+    text-align:center;
 }
 header img {
     display: block;
@@ -27,7 +23,6 @@ p {
     margin: 0;
     font-size: 1.8em;
     font-weight: 100;
-    text-shadow: none;
 }
 .github-download {
     display: inline-block;
@@ -38,10 +33,4 @@ p {
     border-radius: 8px;
     color: #FFF;
     text-decoration: none;
-}
-.phone-image {
-    width: 80%;
-    max-width: 320px;
-    display: block;
-    margin: 40px auto 0 auto;
 }
