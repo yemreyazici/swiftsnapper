@@ -1,0 +1,64 @@
+html {
+    background: #3498db no-repeat center center fixed;
+}
+body {
+    font-family:"Open Sans";
+    color:#FFF;
+}
+.container {
+    margin:0 auto;
+    margin-top:20px;
+}
+.box-1, .box-2 {
+    text-align:center;
+    clear:both;
+}
+.box-1 {
+    margin-bottom:60px;
+}
+h1 {
+    width:365px;
+    display:block;
+    margin:0 auto;
+
+    font-weight:bold;
+    font-size:3.5em;
+    text-shadow:3px 3px 0 #297cb3;
+
+    position:relative;
+}
+h1:before {
+    content:'';
+    background:url('../images/logo.png');
+    display:block;
+    width:96px;
+    height:96px;
+    background-size:96px 96px;
+    position:absolute;
+    top:-9px;
+    left:-96px;
+}
+p {
+    display:block;
+    font-size:1.8em;
+    font-weight:300;
+    text-shadow:none;
+    margin:0;
+}
+.github-download {
+    display:inline-block;
+    background:#000 url('../images/icons/GitHub-Mark-Light-32px.png');
+    background-repeat:no-repeat;
+    background-position:10px 10px;
+    padding:15px 15px 15px 57px;
+    border-radius:8px;
+    color:#FFF;
+    text-decoration:none;
+}
+.phone-image {
+    width:80%;
+    max-width:320px;
+    display:block;
+    margin:40px auto;
+
+}
