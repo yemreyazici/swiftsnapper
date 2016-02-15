@@ -30,7 +30,7 @@
       "views": {
         "stories": {
           "title": "Hikayeler",
-          "myStory": "Benim hikayem",
+          "myStory": "Hikayem",
           "explore":  "Keşfet"
         }
       }
@@ -38,7 +38,7 @@
 
     "settings": {
       "title": "Ayarlar",
-      "logout": "Çıkmak"
+      "logout": "Çıkış"
     }
   }
 }
